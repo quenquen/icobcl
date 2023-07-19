@@ -14,7 +14,7 @@ How does it work?
 2. Add the fonts folder and iconostr.css file in your project main folder.
 3. Include the font stylesheet into the header of your page:
 
-    ```<link rel="stylesheet" href="src/icobcl.css">```
+    ```<link rel="stylesheet" href="icobcl.css">```
 
 4. Add the nstr markup ```<i class="bcl-iconname"></i>```.
 
