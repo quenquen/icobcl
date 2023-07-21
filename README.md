@@ -4,7 +4,9 @@ The IcoBCL is a free-to-use set that includes icons in solid style, packaged as 
 
 You can add IcoBCL to your project by downloading the assets directly from Github. Source SVG files are also available.
 
-The icons are licenced using Creative Commons BY-SA-4.0 and fonts by MIT licence, allowing for use in commercial projects.
+The icons are licenced using Creative Commons BY-SA-4.0 and font by MIT licence, allowing for use in commercial projects.
+
+**Demo:** [bcl.social/icobcldemo](https://bcl.social/icobcldemo)
 
 ## Getting Started
 
