@@ -1,5 +1,5 @@
 /*!
-  * IcoBCL v1.0
+  * IcoBCL v1.0.1
   * https://bcl.social/webfont
   *
   * Copyright (c) 2023 BCL.SOCIAL
@@ -10,11 +10,11 @@
 
  @font-face {
   font-family: 'icobcl';
-  src:  url('fonts/icobcl.eot?8f2kck');
-  src:  url('fonts/icobcl.eot?8f2kck#iefix') format('embedded-opentype'),
-    url('fonts/icobcl.ttf?8f2kck') format('truetype'),
-    url('fonts/icobcl.woff?8f2kck') format('woff'),
-    url('fonts/icobcl.svg?8f2kck#icobcl') format('svg');
+  src:  url('fonts/icobcl.eot?r6ikb3');
+  src:  url('fonts/icobcl.eot?r6ikb3#iefix') format('embedded-opentype'),
+    url('fonts/icobcl.ttf?r6ikb3') format('truetype'),
+    url('fonts/icobcl.woff?r6ikb3') format('woff'),
+    url('fonts/icobcl.svg?r6ikb3#icobcl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -454,7 +454,7 @@ i {
 .bcl-bclsocial-logo:before {
   content: "\e902";
 }
-.bcl-amoralogo:before {
+.bcl-amora:before {
   content: "\e948";
 }
 .bcl-amora-logo:before {
@@ -480,6 +480,12 @@ i {
 }
 .bcl-twitter:before {
   content: "\e907";
+}
+.bcl-twitterx:before {
+  content: "\e950";
+}
+.bcl-twitterx-square:before {
+  content: "\e951";
 }
 .bcl-instagram:before {
   content: "\e908";
