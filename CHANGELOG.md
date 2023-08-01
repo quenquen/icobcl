@@ -17,6 +17,11 @@
 
 **FEATURES**
 - Landing Page [bcl.social/webfont](https://bcl.social/webfont)
+- Customization: CSS style classes
+	- Scalability
+	- Spin / Rotate / Flip
+	- Visual Effects
+	- Colors
 
 **NEW ICONS**
 - Threads
