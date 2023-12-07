@@ -1,1 +1,1120 @@
+/*!
+  * IcoBCL SN v1.0
+  * https://bcl.social/webfont
+  * Make use of<span> tag. Compatible to work along with other Icon Libraries such as FontAwesome!
+  * Copyright (c) 2023 BCL.SOCIAL
+  * Licensed under the MIT license
+ */
+ 
+ @font-face {
+  font-family: 'icobcl';
+  src:  url('fonts/icobcl.eot?qtf57c');
+  src:  url('fonts/icobcl.eot?qtf57c#iefix') format('embedded-opentype'),
+    url('fonts/icobcl.ttf?qtf57c') format('truetype'),
+    url('fonts/icobcl.woff?qtf57c') format('woff'),
+    url('fonts/icobcl.svg?qtf57c#icobcl') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
+.ico {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icobcl' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+       [class^="bcl-"],
+       [class*=" bcl-"] {
+           display: inline-block;
+           width: 1em;
+           height: 1em;
+           stroke-width: 0;
+           stroke: currentColor;
+           fill: currentColor;
+       }
+
+/* ICONS */
+
+.bclsocial:before {
+  content: "\e900";
+}
+.bclsocial-icon:before {
+  content: "\e901";
+}
+.bclsocial-logo:before {
+  content: "\e902";
+}
+.amora:before {
+  content: "\e948";
+}
+.amora-logo:before {
+  content: "\e949";
+}
+.amora-ico:before {
+  content: "\e94a";
+}
+.bcreative:before {
+  content: "\e94b";
+}
+.iconostr:before {
+  content: "\e903";
+}
+.nostrice:before {
+  content: "\e904";
+}
+.nostr:before {
+  content: "\e905";
+}
+.nostrlogo:before {
+  content: "\e906";
+}
+.twitter:before {
+  content: "\e907";
+}
+.twitterx:before {
+  content: "\e950";
+}
+.twitterx-square:before {
+  content: "\e951";
+}
+.instagram:before {
+  content: "\e908";
+}
+.facebook:before {
+  content: "\e909";
+}
+.facebook2:before {
+  content: "\e90a";
+}
+.threads:before {
+  content: "\e90b";
+}
+.mastodon:before {
+  content: "\e90c";
+}
+.tumblr:before {
+  content: "\e90d";
+}
+.reddit:before {
+  content: "\e90e";
+}
+.lemmy:before {
+  content: "\e952";
+}
+.medium:before {
+  content: "\e94c";
+}
+.medium2:before {
+  content: "\e94d";
+}
+.pinterest:before {
+  content: "\e90f";
+}
+.flickr:before {
+  content: "\e953";
+}
+.vk:before {
+  content: "\e910";
+}
+.tiktok:before {
+  content: "\e911";
+}
+.telegram:before {
+  content: "\e912";
+}
+.whatsapp:before {
+  content: "\e913";
+}
+.whatsapp2:before {
+  content: "\e914";
+}
+.whatsapp3:before {
+  content: "\e915";
+}
+.messenger:before {
+  content: "\e954";
+}
+.line:before {
+  content: "\e955";
+}
+.wechat:before {
+  content: "\e956";
+}
+.slack:before {
+  content: "\e94e";
+}
+.discord:before {
+  content: "\e916";
+}
+.discord2:before {
+  content: "\e917";
+}
+.youtube:before {
+  content: "\e918";
+}
+.youtube2:before {
+  content: "\e919";
+}
+.twitch:before {
+  content: "\e91a";
+}
+.spotify:before {
+  content: "\e91b";
+}
+.deezer:before {
+  content: "\e957";
+}
+.soundcloud:before {
+  content: "\e958";
+}
+.tripadvisor:before {
+  content: "\e959";
+}
+.airbnb:before {
+  content: "\e95a";
+}
+.dropbox:before {
+  content: "\e95b";
+}
+.box:before {
+  content: "\e95c";
+}
+.disqus:before {
+  content: "\e95d";
+}
+.duckduckgo:before {
+  content: "\e95e";
+}
+.kickstarter:before {
+  content: "\e95f";
+}
+.linewebtoon:before {
+  content: "\e960";
+}
+.googleadsense:before {
+  content: "\e961";
+}
+.linkedin:before {
+  content: "\e91c";
+}
+.adobe:before {
+  content: "\e962";
+}
+.adobecreativecloud:before {
+  content: "\e963";
+}
+.deviantart:before {
+  content: "\e91d";
+}
+.behance:before {
+  content: "\e91e";
+}
+.dribbble:before {
+  content: "\e91f";
+}
+.canva:before {
+  content: "\e964";
+}
+.codepen:before {
+  content: "\e94f";
+}
+.devto:before {
+  content: "\e920";
+}
+.github:before {
+  content: "\e921";
+}
+.wordpress:before {
+  content: "\e965";
+}
+.grav:before {
+  content: "\e966";
+}
+.bludit:before {
+  content: "\e967";
+}
+.jekyll:before {
+  content: "\e968";
+}
+.jekyll-logo:before {
+  content: "\e969";
+}
+.docker:before {
+  content: "\e96a";
+}
+.aws:before {
+  content: "\e96b";
+}
+.aws-logo:before {
+  content: "\e96c";
+}
+.bootstrap:before {
+  content: "\e96d";
+}
+.code:before {
+  content: "\e96e";
+}
+.terminal-screen:before {
+  content: "\e96f";
+}
+.terminal:before {
+  content: "\e939";
+}
+.markdown:before {
+  content: "\e93a";
+}
+.html5:before {
+  content: "\e970";
+}
+.css3:before {
+  content: "\e971";
+}
+.digitalocean:before {
+  content: "\e972";
+}
+.digitalocean-logo:before {
+  content: "\e973";
+}
+.vercel:before {
+  content: "\e974";
+}
+.raspberrypi:before {
+  content: "\e975";
+}
+.creativecommons:before {
+  content: "\e976";
+}
+.googleplay:before {
+  content: "\e922";
+}
+.appstore:before {
+  content: "\e923";
+}
+.googleplay-button:before {
+  content: "\e977";
+}
+.appstore-button:before {
+  content: "\e978";
+}
+.googlepay:before {
+  content: "\e979";
+}
+.applepay:before {
+  content: "\e97a";
+}
+.android:before {
+  content: "\e97b";
+}
+.apple:before {
+  content: "\e97c";
+}
+.blackberry:before {
+  content: "\e97d";
+}
+.samsung:before {
+  content: "\e97e";
+}
+.xiaomi:before {
+  content: "\e97f";
+}
+.xiaomi-square:before {
+  content: "\e980";
+}
+.openai:before {
+  content: "\e981";
+}
+.shopee:before {
+  content: "\e982";
+}
+.aliexpress-logo:before {
+  content: "\e983";
+}
+.shein:before {
+  content: "\e984";
+}
+.dazn:before {
+  content: "\e985";
+}
+.pix:before {
+  content: "\e925";
+}
+.pix-logo:before {
+  content: "\e926";
+}
+.bitcoin:before {
+  content: "\e927";
+}
+.ethereum:before {
+  content: "\e986";
+}
+.solana .path1:before {
+  content: "\e99d";
+  color: rgb(220, 185, 203);
+}
+.solana .path2:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.solana .path3:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.solana .path4:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polygon .path1:before {
+  content: "\e9a1";
+  color: rgb(220, 185, 203);
+}
+.polygon .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bnb:before {
+  content: "\e987";
+}
+.litecoin:before {
+  content: "\e988";
+}
+.xrp .path1:before {
+  content: "\e9a3";
+  color: rgb(220, 185, 203);
+}
+.xrp .path2:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.near .path1:before {
+  content: "\e9a5";
+  color: rgb(220, 185, 203);
+}
+.near .path2:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path1:before {
+  content: "\e9a7";
+  color: rgb(220, 185, 203);
+}
+.polkadot .path2:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path3:before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path4:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path5:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path6:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.polkadot .path7:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.tether .path1:before {
+  content: "\e9ae";
+  color: rgb(220, 185, 203);
+}
+.tether .path2:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bayc .path1:before {
+  content: "\e9b0";
+  color: rgb(220, 185, 203);
+}
+.bayc .path2:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bayc .path3:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bayc .path4:before {
+  content: "\e9b3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bayc .path5:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.opensea-circle .path1:before {
+  content: "\e9b5";
+  color: rgb(220, 185, 203);
+}
+.opensea-circle .path2:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.opensea .path1:before {
+  content: "\e9b7";
+  color: rgb(220, 185, 203);
+}
+.opensea .path2:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.opensea .path3:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.tezos .path1:before {
+  content: "\e9ba";
+  color: rgb(220, 185, 203);
+}
+.tezos .path2:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.uniswap .path1:before {
+  content: "\e9bc";
+  color: rgb(220, 185, 203);
+}
+.uniswap .path2:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.uniswap .path3:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.uniswap .path4:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.uniswap .path5:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.magic-eden .path1:before {
+  content: "\e9c1";
+  color: rgb(220, 185, 203);
+}
+.magic-eden .path2:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+.nft .path1:before {
+  content: "\e9c3";
+  color: rgb(220, 185, 203);
+}
+.nft .path2:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.nft .path3:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.backpack .path1:before {
+  content: "\e9c6";
+  color: rgb(220, 185, 203);
+}
+.backpack .path2:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.phantom .path1:before {
+  content: "\e9c8";
+  color: rgb(220, 185, 203);
+}
+.phantom .path2:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(28, 28, 28);
+}
+.phantom-icon .path1:before {
+  content: "\e9ca";
+  color: rgb(220, 185, 203);
+}
+.phantom-icon .path2:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.phantom-icon .path3:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.metamask .path1:before {
+  content: "\e9cd";
+  color: rgb(220, 185, 203);
+}
+.metamask .path2:before {
+  content: "\e9ce";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.chadonsolana .path1:before {
+  content: "\e9cf";
+  color: rgb(220, 185, 203);
+}
+.chadonsolana .path2:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.thndr .path1:before {
+  content: "\e9d1";
+  color: rgb(220, 185, 203);
+}
+.thndr .path2:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.thndr .path3:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.thndr .path4:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.wallet:before {
+  content: "\e928";
+}
+.zap:before {
+  content: "\e929";
+}
+.zap-circle:before {
+  content: "\e92a";
+}
+.bolt:before {
+  content: "\e92b";
+}
+.verified:before {
+  content: "\e92c";
+}
+.verified2:before {
+  content: "\e92d";
+}
+.sofa:before {
+  content: "\e92e";
+}
+.book:before {
+  content: "\e92f";
+}
+.beer:before {
+  content: "\e930";
+}
+.coffee:before {
+  content: "\e931";
+}
+.map:before {
+  content: "\e932";
+}
+.location-pin:before {
+  content: "\e933";
+}
+.share:before {
+  content: "\e934";
+}
+.external-link:before {
+  content: "\e935";
+}
+.hyperlink:before {
+  content: "\e936";
+}
+.globe:before {
+  content: "\e937";
+}
+.globe2:before {
+  content: "\e938";
+}
+.bookmark:before {
+  content: "\e93b";
+}
+.tag:before {
+  content: "\e93c";
+}
+.mail:before {
+  content: "\e93d";
+}
+.qr-code:before {
+  content: "\e989";
+}
+.wifi:before {
+  content: "\e93e";
+}
+.rss:before {
+  content: "\e924";
+}
+.hashtag:before {
+  content: "\e98a";
+}
+.network:before {
+  content: "\e98b";
+}
+.chart-pie:before {
+  content: "\e98c";
+}
+.podcast:before {
+  content: "\e93f";
+}
+.shapes .path1:before {
+  content: "\e9d5";
+  color: rgb(220, 185, 203);
+}
+.shapes .path2:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.stats .path1:before {
+  content: "\e9d7";
+  color: rgb(220, 185, 203);
+}
+.stats .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.stats .path3:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.calendar-events .path1:before {
+  content: "\e9da";
+  color: rgb(220, 185, 203);
+}
+.calendar-events .path2:before {
+  content: "\e9db";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.calendar-events .path3:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.calendar .path1:before {
+  content: "\e9dd";
+  color: rgb(220, 185, 203);
+}
+.calendar .path2:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.community .path1:before {
+  content: "\e9df";
+  color: rgb(220, 185, 203);
+}
+.community .path2:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.community .path3:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.community .path4:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.community .path5:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(1, 0, 2);
+}
+.cannabis .path1:before {
+  content: "\e9e4";
+  color: rgb(220, 185, 203);
+}
+.cannabis .path2:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.logout:before {
+  content: "\e940";
+}
+.login:before {
+  content: "\e941";
+}
+.like:before {
+  content: "\e942";
+}
+.dislike:before {
+  content: "\e943";
+}
+.star:before {
+  content: "\e98d";
+}
+.heart:before {
+  content: "\e98e";
+}
+.sun:before {
+  content: "\e944";
+}
+.moon:before {
+  content: "\e945";
+}
+.adjust:before {
+  content: "\e946";
+}
+.checkbox:before {
+  content: "\e947";
+}
+.balance:before {
+  content: "\e98f";
+}
+.supercell:before {
+  content: "\e990";
+}
+.brawlstars:before {
+  content: "\e991";
+}
+.brawlstars-icon:before {
+  content: "\e992";
+}
+.overwatch:before {
+  content: "\e993";
+}
+.overwatch-2:before {
+  content: "\e994";
+}
+.dota2:before {
+  content: "\e995";
+}
+.leagueoflegends:before {
+  content: "\e996";
+}
+.mobilelegends-icon:before {
+  content: "\e997";
+}
+.mobilelegends:before {
+  content: "\e998";
+}
+.freefire:before {
+  content: "\e999";
+}
+.steam:before {
+  content: "\e99a";
+}
+.epicgames:before {
+  content: "\e99b";
+}
+.eslgaming:before {
+  content: "\e99c";
+}
+
+/* SCALABILITY */
+  
+.bcl-lg {
+  font-size: 1.33em;
+  vertical-align: -0.133em;
+}
+
+.bcl-1x {
+  font-size: 24px;
+  vertical-align: -0.1em;
+}
+
+.bcl-2x {
+  font-size: 36px;
+  vertical-align: -0.2em;
+}
+
+.bcl-3x {
+  font-size: 48px;
+  vertical-align: -0.3em;
+}
+
+.bcl-4x {
+  font-size: 64px;
+  vertical-align: -0.4em;
+}
+
+.bcl-5x {
+  font-size: 72px;
+  vertical-align: -0.5em;
+}
+
+.bcl-6x {
+  font-size: 96px;
+  vertical-align: -0.6em;
+}
+
+.bcl-6x {
+  font-size: 128px;
+  vertical-align: -0.7em;
+}
+
+.bcl-2xs {
+  font-size:.625em;
+  line-height:.1em;
+  vertical-align:.225em;
+  }
+  
+.bcl-xs {
+  font-size:.75em;
+  vertical-align:.125em;
+  }
+  
+.bcl-sm {
+  font-size:.875em;
+  line-height:.07143em;
+  vertical-align:.05357em;
+  }
+
+.bcl-xl {
+  font-size:1.5em;
+  vertical-align:-.125em;
+  }
+
+.bcl-2xl {
+  font-size:2em;
+  vertical-align:-.1875em;
+  }
+
+.bcl-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+.bcl-ul > li {
+  position: relative;
+}
+
+.bcl-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.bcl-li.bcl-lg {
+  left: -1.85714286em;
+}
+
+.bcl-border {
+  padding: .2em .25em .15em;
+  border: solid 0.07em #eaeaea;
+  border-radius: .1em;
+}
+
+.bcl-border-circle {
+    padding: .25em;
+    border: .07em solid rgba(0,0,0,.1);
+    border-radius: 50%;
+}
+  
+.bcl-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.bcl-stack-1x,
+.bcl-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bcl-stack-1x {
+  line-height: inherit;
+}
+
+.bcl-stack-2x {
+  font-size: 2em;
+}
+
+.bcl-pull-left {
+  float: left;
+  margin-right: .3em!important;
+}
+
+.bcl-pull-right {
+  float: right;
+  margin-left: .3em!important;
+}
+
+/* ANIMATIONS */
+
+.bcl-spin {
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+}
+.bcl-spin-hover:hover {
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+}
+
+.bcl-rotate-90 {
+    transform: rotate(90deg);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+}
+.bcl-rotate-180 {
+    transform: rotate(180deg);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
+}
+.bcl-rotate-270 {
+    transform: rotate(270deg);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
+}
+
+.bcl-flip-horizontal {
+    transform: scaleX(-1);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
+}
+.bcl-flip-vertical {
+    transform: scaleY(-1);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
+}
+
+.bcl-fade-up {
+    -webkit-animation: fade-up 1.5s infinite linear;
+            animation: fade-up 1.5s infinite linear;
+}
+.bcl-fade-up-hover:hover {
+    -webkit-animation: fade-up 1.5s infinite linear;
+            animation: fade-up 1.5s infinite linear;
+}
+.bcl-fade-down {
+    -webkit-animation: fade-down 1.5s infinite linear;
+            animation: fade-down 1.5s infinite linear;
+}
+.bcl-fade-down-hover:hover {
+    -webkit-animation: fade-down 1.5s infinite linear;
+            animation: fade-down 1.5s infinite linear;
+}
+.bcl-fade-left {
+    -webkit-animation: fade-left 1.5s infinite linear;
+            animation: fade-left 1.5s infinite linear;
+}
+.bcl-fade-left-hover:hover {
+    -webkit-animation: fade-left 1.5s infinite linear;
+            animation: fade-left 1.5s infinite linear;
+}
+.bcl-fade-right {
+    -webkit-animation: fade-right 1.5s infinite linear;
+            animation: fade-right 1.5s infinite linear;
+}
+.bcl-fade-right-hover:hover {
+    -webkit-animation: fade-right 1.5s infinite linear;
+            animation: fade-right 1.5s infinite linear;
+}
+
+/* CUSTOMIZATION */
+
+.bcl-opacity {
+  filter: opacity(30%);
+}
+.bcl-blur {
+  filter: blur(2px);
+}
+.bcl-brightness {
+  filter: brightness(0.30);
+}
+.bcl-contrast {
+  filter: contrast(180%);
+}
+
+.bcl-grayscale {
+    filter: invert(51%) sepia(6%) saturate(15%) hue-rotate(14deg) brightness(98%) contrast(88%);
+}
+.bcl-huerotate {
+  filter: hue-rotate(180deg);
+}
+.bcl-invert {
+  filter: invert(100%);
+}
+.bcl-saturate {
+  filter: saturate(7);
+}
+.bcl-sepia {
+  filter: sepia(100%);
+}
+.bcl-shadow {filter: drop-shadow(8px 8px 10px #A21CAF);}
+
+/* COLORING */
+
+.bcl-black {
+  filter: invert(0%) sepia(96%) saturate(100%) hue-rotate(285deg) brightness(0%) contrast(101%);
+}
+
+.bcl-inverse {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  }
+
+.bcl-purple {
+  filter: invert(46%) sepia(53%) saturate(5915%) hue-rotate(243deg) brightness(104%) contrast(100%);
+}
+
+.bcl-purple2 {
+  filter: invert(17%) sepia(89%) saturate(2765%) hue-rotate(283deg) brightness(96%) contrast(101%);
+}
+
+.bcl-green {
+  filter: invert(76%) sepia(56%) saturate(789%) hue-rotate(86deg) brightness(100%) contrast(101%);
+}
+
+.bcl-green2 {
+  filter: invert(93%) sepia(82%) saturate(691%) hue-rotate(34deg) brightness(107%) contrast(100%);
+}
