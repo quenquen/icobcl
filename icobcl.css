@@ -8,11 +8,11 @@
  
 @font-face {
   font-family: 'icobcl';
-  src:  url('fonts/icobcl.eot?1h189t');
-  src:  url('fonts/icobcl.eot?1h189t#iefix') format('embedded-opentype'),
-    url('fonts/icobcl.ttf?1h189t') format('truetype'),
-    url('fonts/icobcl.woff?1h189t') format('woff'),
-    url('fonts/icobcl.svg?1h189t#icobcl') format('svg');
+  src:  url('fonts/icobcl.eot?qck5wr');
+  src:  url('fonts/icobcl.eot?qck5wr#iefix') format('embedded-opentype'),
+    url('fonts/icobcl.ttf?qck5wr') format('truetype'),
+    url('fonts/icobcl.woff?qck5wr') format('woff'),
+    url('fonts/icobcl.svg?qck5wr#icobcl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -358,33 +358,11 @@ i {
 .bcl-ethereum:before {
   content: "\e986";
 }
-.bcl-solana .path1:before {
+.bcl-solana:before {
   content: "\e99d";
-  color: rgb(220, 185, 203);
 }
-.bcl-solana .path2:before {
-  content: "\e99e";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-solana .path3:before {
-  content: "\e99f";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-solana .path4:before {
-  content: "\e9a0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polygon .path1:before {
+.bcl-polygon:before {
   content: "\e9a1";
-  color: rgb(220, 185, 203);
-}
-.bcl-polygon .path2:before {
-  content: "\e9a2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .bcl-bnb:before {
   content: "\e987";
@@ -392,238 +370,62 @@ i {
 .bcl-litecoin:before {
   content: "\e988";
 }
-.bcl-xrp .path1:before {
+.bcl-xrp:before {
   content: "\e9a3";
-  color: rgb(220, 185, 203);
 }
-.bcl-xrp .path2:before {
-  content: "\e9a4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-near .path1:before {
+.bcl-near:before {
   content: "\e9a5";
-  color: rgb(220, 185, 203);
 }
-.bcl-near .path2:before {
-  content: "\e9a6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path1:before {
+.bcl-polkadot:before {
   content: "\e9a7";
-  color: rgb(220, 185, 203);
 }
-.bcl-polkadot .path2:before {
-  content: "\e9a8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path3:before {
-  content: "\e9a9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path4:before {
-  content: "\e9aa";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path5:before {
-  content: "\e9ab";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path6:before {
-  content: "\e9ac";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-polkadot .path7:before {
-  content: "\e9ad";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-tether .path1:before {
+.bcl-tether:before {
   content: "\e9ae";
-  color: rgb(220, 185, 203);
 }
-.bcl-tether .path2:before {
-  content: "\e9af";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.bcl-binance:before {
+  content: "\e99e";
 }
-.bcl-bayc .path1:before {
+.bcl-binance-logo:before {
+  content: "\e99f";
+}
+.bcl-bayc:before {
   content: "\e9b0";
-  color: rgb(220, 185, 203);
 }
-.bcl-bayc .path2:before {
-  content: "\e9b1";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-bayc .path3:before {
-  content: "\e9b2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-bayc .path4:before {
-  content: "\e9b3";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-bayc .path5:before {
-  content: "\e9b4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-opensea-circle .path1:before {
+.bcl-opensea-circle:before {
   content: "\e9b5";
-  color: rgb(220, 185, 203);
 }
-.bcl-opensea-circle .path2:before {
-  content: "\e9b6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-opensea .path1:before {
+.bcl-opensea:before {
   content: "\e9b7";
-  color: rgb(220, 185, 203);
 }
-.bcl-opensea .path2:before {
-  content: "\e9b8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-opensea .path3:before {
-  content: "\e9b9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-tezos .path1:before {
+.bcl-tezos:before {
   content: "\e9ba";
-  color: rgb(220, 185, 203);
 }
-.bcl-tezos .path2:before {
-  content: "\e9bb";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-uniswap .path1:before {
+.bcl-uniswap:before {
   content: "\e9bc";
-  color: rgb(220, 185, 203);
 }
-.bcl-uniswap .path2:before {
-  content: "\e9bd";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-uniswap .path3:before {
-  content: "\e9be";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-uniswap .path4:before {
-  content: "\e9bf";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-uniswap .path5:before {
-  content: "\e9c0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-magic-eden .path1:before {
+.bcl-magic-eden:before {
   content: "\e9c1";
-  color: rgb(220, 185, 203);
 }
-.bcl-magic-eden .path2:before {
-  content: "\e9c2";
-  margin-left: -1em;
-  color: rgb(29, 29, 27);
-}
-.bcl-nft .path1:before {
+.bcl-nft:before {
   content: "\e9c3";
-  color: rgb(220, 185, 203);
 }
-.bcl-nft .path2:before {
-  content: "\e9c4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-nft .path3:before {
-  content: "\e9c5";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-backpack .path1:before {
+.bcl-backpack:before {
   content: "\e9c6";
-  color: rgb(220, 185, 203);
 }
-.bcl-backpack .path2:before {
-  content: "\e9c7";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.bcl-phantom:before {
+  content: "\e9c2";
 }
-.bcl-phantom .path1:before {
+.bcl-phantom-icon:before {
   content: "\e9c8";
-  color: rgb(220, 185, 203);
 }
-.bcl-phantom .path2:before {
-  content: "\e9c9";
-  margin-left: -1em;
-  color: rgb(28, 28, 28);
-}
-.bcl-phantom-icon .path1:before {
-  content: "\e9ca";
-  color: rgb(220, 185, 203);
-}
-.bcl-phantom-icon .path2:before {
-  content: "\e9cb";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-phantom-icon .path3:before {
-  content: "\e9cc";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-metamask .path1:before {
+.bcl-metamask:before {
   content: "\e9cd";
-  color: rgb(220, 185, 203);
 }
-.bcl-metamask .path2:before {
-  content: "\e9ce";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.bcl-chadonsolana:before {
+  content: "\e9c9";
 }
-.bcl-chadonsolana .path1:before {
-  content: "\e9cf";
-  color: rgb(220, 185, 203);
-}
-.bcl-chadonsolana .path2:before {
-  content: "\e9d0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-thndr .path1:before {
+.bcl-thndr:before {
   content: "\e9d1";
-  color: rgb(220, 185, 203);
-}
-.bcl-thndr .path2:before {
-  content: "\e9d2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-thndr .path3:before {
-  content: "\e9d3";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-thndr .path4:before {
-  content: "\e9d4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .bcl-wallet:before {
   content: "\e928";
@@ -685,8 +487,17 @@ i {
 .bcl-mail:before {
   content: "\e93d";
 }
+.bcl-newsletter:before {
+  content: "\e9a0";
+}
 .bcl-qr-code:before {
   content: "\e989";
+}
+.bcl-calendar-events:before {
+  content: "\e9da";
+}
+.bcl-calendar:before {
+  content: "\e9dd";
 }
 .bcl-wifi:before {
   content: "\e93e";
@@ -703,87 +514,14 @@ i {
 .bcl-chart-pie:before {
   content: "\e98c";
 }
+.bcl-stats:before {
+  content: "\e9d7";
+}
+.bcl-shapes:before {
+  content: "\e9d5";
+}
 .bcl-podcast:before {
   content: "\e93f";
-}
-.bcl-shapes .path1:before {
-  content: "\e9d5";
-  color: rgb(220, 185, 203);
-}
-.bcl-shapes .path2:before {
-  content: "\e9d6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-stats .path1:before {
-  content: "\e9d7";
-  color: rgb(220, 185, 203);
-}
-.bcl-stats .path2:before {
-  content: "\e9d8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-stats .path3:before {
-  content: "\e9d9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-calendar-events .path1:before {
-  content: "\e9da";
-  color: rgb(220, 185, 203);
-}
-.bcl-calendar-events .path2:before {
-  content: "\e9db";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-calendar-events .path3:before {
-  content: "\e9dc";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-calendar .path1:before {
-  content: "\e9dd";
-  color: rgb(220, 185, 203);
-}
-.bcl-calendar .path2:before {
-  content: "\e9de";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bcl-community .path1:before {
-  content: "\e9df";
-  color: rgb(220, 185, 203);
-}
-.bcl-community .path2:before {
-  content: "\e9e0";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-community .path3:before {
-  content: "\e9e1";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-community .path4:before {
-  content: "\e9e2";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-community .path5:before {
-  content: "\e9e3";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.bcl-cannabis .path1:before {
-  content: "\e9e4";
-  color: rgb(220, 185, 203);
-}
-.bcl-cannabis .path2:before {
-  content: "\e9e5";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .bcl-logout:before {
   content: "\e940";
@@ -815,8 +553,17 @@ i {
 .bcl-checkbox:before {
   content: "\e947";
 }
+.bcl-arrow-up:before {
+  content: "\e9a2";
+}
 .bcl-balance:before {
   content: "\e98f";
+}
+.bcl-cannabis:before {
+  content: "\e9e4";
+}
+.bcl-community:before {
+  content: "\e9df";
 }
 .bcl-supercell:before {
   content: "\e990";
