@@ -6,13 +6,13 @@
   * Licensed under the MIT license
  */
  
- @font-face {
+@font-face {
   font-family: 'icobcl';
-  src:  url('fonts/icobcl.eot?qtf57c');
-  src:  url('fonts/icobcl.eot?qtf57c#iefix') format('embedded-opentype'),
-    url('fonts/icobcl.ttf?qtf57c') format('truetype'),
-    url('fonts/icobcl.woff?qtf57c') format('woff'),
-    url('fonts/icobcl.svg?qtf57c#icobcl') format('svg');
+  src:  url('fonts/icobcl.eot?z8srv2');
+  src:  url('fonts/icobcl.eot?z8srv2#iefix') format('embedded-opentype'),
+    url('fonts/icobcl.ttf?z8srv2') format('truetype'),
+    url('fonts/icobcl.woff?z8srv2') format('woff'),
+    url('fonts/icobcl.svg?z8srv2#icobcl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -357,33 +357,11 @@
 .ethereum:before {
   content: "\e986";
 }
-.solana .path1:before {
+.solana:before {
   content: "\e99d";
-  color: rgb(220, 185, 203);
 }
-.solana .path2:before {
-  content: "\e99e";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.solana .path3:before {
-  content: "\e99f";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.solana .path4:before {
-  content: "\e9a0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polygon .path1:before {
+.polygon:before {
   content: "\e9a1";
-  color: rgb(220, 185, 203);
-}
-.polygon .path2:before {
-  content: "\e9a2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .bnb:before {
   content: "\e987";
@@ -391,238 +369,62 @@
 .litecoin:before {
   content: "\e988";
 }
-.xrp .path1:before {
+.xrp:before {
   content: "\e9a3";
-  color: rgb(220, 185, 203);
 }
-.xrp .path2:before {
-  content: "\e9a4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.near .path1:before {
+.near:before {
   content: "\e9a5";
-  color: rgb(220, 185, 203);
 }
-.near .path2:before {
-  content: "\e9a6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path1:before {
+.polkadot:before {
   content: "\e9a7";
-  color: rgb(220, 185, 203);
 }
-.polkadot .path2:before {
-  content: "\e9a8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path3:before {
-  content: "\e9a9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path4:before {
-  content: "\e9aa";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path5:before {
-  content: "\e9ab";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path6:before {
-  content: "\e9ac";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.polkadot .path7:before {
-  content: "\e9ad";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.tether .path1:before {
+.tether:before {
   content: "\e9ae";
-  color: rgb(220, 185, 203);
 }
-.tether .path2:before {
-  content: "\e9af";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.binance:before {
+  content: "\e99e";
 }
-.bayc .path1:before {
+.binance-logo:before {
+  content: "\e99f";
+}
+.bayc:before {
   content: "\e9b0";
-  color: rgb(220, 185, 203);
 }
-.bayc .path2:before {
-  content: "\e9b1";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bayc .path3:before {
-  content: "\e9b2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bayc .path4:before {
-  content: "\e9b3";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.bayc .path5:before {
-  content: "\e9b4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.opensea-circle .path1:before {
+.opensea-circle:before {
   content: "\e9b5";
-  color: rgb(220, 185, 203);
 }
-.opensea-circle .path2:before {
-  content: "\e9b6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.opensea .path1:before {
+.opensea:before {
   content: "\e9b7";
-  color: rgb(220, 185, 203);
 }
-.opensea .path2:before {
-  content: "\e9b8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.opensea .path3:before {
-  content: "\e9b9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.tezos .path1:before {
+.tezos:before {
   content: "\e9ba";
-  color: rgb(220, 185, 203);
 }
-.tezos .path2:before {
-  content: "\e9bb";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.uniswap .path1:before {
+.uniswap:before {
   content: "\e9bc";
-  color: rgb(220, 185, 203);
 }
-.uniswap .path2:before {
-  content: "\e9bd";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.uniswap .path3:before {
-  content: "\e9be";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.uniswap .path4:before {
-  content: "\e9bf";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.uniswap .path5:before {
-  content: "\e9c0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.magic-eden .path1:before {
+.magic-eden:before {
   content: "\e9c1";
-  color: rgb(220, 185, 203);
 }
-.magic-eden .path2:before {
-  content: "\e9c2";
-  margin-left: -1em;
-  color: rgb(29, 29, 27);
-}
-.nft .path1:before {
+.nft:before {
   content: "\e9c3";
-  color: rgb(220, 185, 203);
 }
-.nft .path2:before {
-  content: "\e9c4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.nft .path3:before {
-  content: "\e9c5";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.backpack .path1:before {
+.backpack:before {
   content: "\e9c6";
-  color: rgb(220, 185, 203);
 }
-.backpack .path2:before {
-  content: "\e9c7";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.phantom:before {
+  content: "\e9c2";
 }
-.phantom .path1:before {
+.phantom-icon:before {
   content: "\e9c8";
-  color: rgb(220, 185, 203);
 }
-.phantom .path2:before {
-  content: "\e9c9";
-  margin-left: -1em;
-  color: rgb(28, 28, 28);
-}
-.phantom-icon .path1:before {
-  content: "\e9ca";
-  color: rgb(220, 185, 203);
-}
-.phantom-icon .path2:before {
-  content: "\e9cb";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.phantom-icon .path3:before {
-  content: "\e9cc";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.metamask .path1:before {
+.metamask:before {
   content: "\e9cd";
-  color: rgb(220, 185, 203);
 }
-.metamask .path2:before {
-  content: "\e9ce";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
+.chadonsolana:before {
+  content: "\e9c9";
 }
-.chadonsolana .path1:before {
-  content: "\e9cf";
-  color: rgb(220, 185, 203);
-}
-.chadonsolana .path2:before {
-  content: "\e9d0";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.thndr .path1:before {
+.thndr:before {
   content: "\e9d1";
-  color: rgb(220, 185, 203);
-}
-.thndr .path2:before {
-  content: "\e9d2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.thndr .path3:before {
-  content: "\e9d3";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.thndr .path4:before {
-  content: "\e9d4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .wallet:before {
   content: "\e928";
@@ -684,8 +486,17 @@
 .mail:before {
   content: "\e93d";
 }
+.newsletter:before {
+  content: "\e9a0";
+}
 .qr-code:before {
   content: "\e989";
+}
+.calendar-events:before {
+  content: "\e9da";
+}
+.calendar:before {
+  content: "\e9dd";
 }
 .wifi:before {
   content: "\e93e";
@@ -702,87 +513,14 @@
 .chart-pie:before {
   content: "\e98c";
 }
+.stats:before {
+  content: "\e9d7";
+}
+.shapes:before {
+  content: "\e9d5";
+}
 .podcast:before {
   content: "\e93f";
-}
-.shapes .path1:before {
-  content: "\e9d5";
-  color: rgb(220, 185, 203);
-}
-.shapes .path2:before {
-  content: "\e9d6";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.stats .path1:before {
-  content: "\e9d7";
-  color: rgb(220, 185, 203);
-}
-.stats .path2:before {
-  content: "\e9d8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.stats .path3:before {
-  content: "\e9d9";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.calendar-events .path1:before {
-  content: "\e9da";
-  color: rgb(220, 185, 203);
-}
-.calendar-events .path2:before {
-  content: "\e9db";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.calendar-events .path3:before {
-  content: "\e9dc";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.calendar .path1:before {
-  content: "\e9dd";
-  color: rgb(220, 185, 203);
-}
-.calendar .path2:before {
-  content: "\e9de";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.community .path1:before {
-  content: "\e9df";
-  color: rgb(220, 185, 203);
-}
-.community .path2:before {
-  content: "\e9e0";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.community .path3:before {
-  content: "\e9e1";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.community .path4:before {
-  content: "\e9e2";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.community .path5:before {
-  content: "\e9e3";
-  margin-left: -1em;
-  color: rgb(1, 0, 2);
-}
-.cannabis .path1:before {
-  content: "\e9e4";
-  color: rgb(220, 185, 203);
-}
-.cannabis .path2:before {
-  content: "\e9e5";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .logout:before {
   content: "\e940";
@@ -814,8 +552,17 @@
 .checkbox:before {
   content: "\e947";
 }
+.arrow-up:before {
+  content: "\e9a2";
+}
 .balance:before {
   content: "\e98f";
+}
+.cannabis:before {
+  content: "\e9e4";
+}
+.community:before {
+  content: "\e9df";
 }
 .supercell:before {
   content: "\e990";
