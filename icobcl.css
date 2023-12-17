@@ -608,77 +608,93 @@ i {
 /* SCALABILITY */
   
 .bcl-lg {
-  font-size: 1.33em;
-  vertical-align: -0.133em;
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
 }
 
 .bcl-1x {
-  font-size: 24px;
-  vertical-align: -0.1em;
+  font-size: 1em;
 }
 
 .bcl-2x {
-  font-size: 36px;
-  vertical-align: -0.2em;
+  font-size: 2em;
 }
 
 .bcl-3x {
-  font-size: 48px;
-  vertical-align: -0.3em;
+  font-size: 3em;
 }
 
 .bcl-4x {
-  font-size: 64px;
-  vertical-align: -0.4em;
+  font-size: 4em;
 }
 
 .bcl-5x {
-  font-size: 72px;
-  vertical-align: -0.5em;
+  font-size: 5em;
 }
 
 .bcl-6x {
-  font-size: 96px;
-  vertical-align: -0.6em;
+  font-size: 6em;
 }
 
-.bcl-6x {
-  font-size: 128px;
-  vertical-align: -0.7em;
+.bcl-7x {
+  font-size: 7em;
+}
+
+.bcl-8x {
+  font-size: 8em;
+}
+
+.bcl-9x {
+  font-size: 9em;
+}
+
+.bcl-10x {
+  font-size: 10em;
 }
 
 .bcl-2xs {
-  font-size:.625em;
-  line-height:.1em;
-  vertical-align:.225em;
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
   }
   
 .bcl-xs {
-  font-size:.75em;
-  vertical-align:.125em;
+  font-size: 0.75em;
+  line-height: 0.08333em;
+  vertical-align: 0.125em;
   }
   
 .bcl-sm {
-  font-size:.875em;
-  line-height:.07143em;
-  vertical-align:.05357em;
+  font-size: 0.875em;
+  line-height: 0.07143em;
+  vertical-align: 0.05357em;
   }
 
 .bcl-xl {
-  font-size:1.5em;
-  vertical-align:-.125em;
+  font-size: 1.5em;
+  line-height: 0.04167em;
+  vertical-align: -0.125em;
   }
 
 .bcl-2xl {
-  font-size:2em;
-  vertical-align:-.1875em;
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
   }
+
+.bcl-fw {
+  text-align: center;
+  width: 1.25em;
+  }
+
+/* LISTS, BORDER AND STACK */
 
 .bcl-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
   list-style-type: none;
-}
+  }
 
 .bcl-ul > li {
   position: relative;
@@ -746,34 +762,62 @@ i {
 /* ANIMATIONS */
 
 .bcl-spin {
-    -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-}
-.bcl-spin-hover:hover {
-    -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
+  -webkit-animation: bcl-spin 2s infinite linear;
+  -moz-animation: bcl-spin 2s infinite linear;
+  -ms-animation: bcl-spin 2s infinite linear;
+  -o-animation: bcl-spin 2s infinite linear;
+  animation: bcl-spin 2s infinite linear;
 }
 
-.bcl-rotate-90 {
-    transform: rotate(90deg);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+@-webkit-keyframes bcl-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
 }
-.bcl-rotate-180 {
-    transform: rotate(180deg);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
-}
-.bcl-rotate-270 {
-    transform: rotate(270deg);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
+
+@keyframes bcl-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
 }
 
 .bcl-flip-horizontal {
-    transform: scaleX(-1);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
+
 .bcl-flip-vertical {
-    transform: scaleY(-1);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.bcl-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.bcl-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.bcl-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .bcl-fade-up {
@@ -809,7 +853,7 @@ i {
             animation: fade-right 1.5s infinite linear;
 }
 
-/* CUSTOMIZATION */
+/* VISUAL EFFECTS */
 
 .bcl-opacity {
   filter: opacity(30%);
@@ -823,9 +867,8 @@ i {
 .bcl-contrast {
   filter: contrast(180%);
 }
-
 .bcl-grayscale {
-    filter: invert(51%) sepia(6%) saturate(15%) hue-rotate(14deg) brightness(98%) contrast(88%);
+  filter: invert(51%) sepia(6%) saturate(15%) hue-rotate(14deg) brightness(98%) contrast(88%);
 }
 .bcl-huerotate {
   filter: hue-rotate(180deg);
@@ -839,30 +882,122 @@ i {
 .bcl-sepia {
   filter: sepia(100%);
 }
-.bcl-shadow {filter: drop-shadow(8px 8px 10px #A21CAF);}
+.bcl-shadow {filter: drop-shadow(4px 4px 5px #A21CAF);}
 
-/* COLORING */
-
-.bcl-black {
-  filter: invert(0%) sepia(96%) saturate(100%) hue-rotate(285deg) brightness(0%) contrast(101%);
-}
-
-.bcl-inverse {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-  }
+/* COLORS */
 
 .bcl-purple {
-  filter: invert(46%) sepia(53%) saturate(5915%) hue-rotate(243deg) brightness(104%) contrast(100%);
+  color: #A21CAF;
 }
 
-.bcl-purple2 {
-  filter: invert(17%) sepia(89%) saturate(2765%) hue-rotate(283deg) brightness(96%) contrast(101%);
+.bcl-dpurple {
+  color: #86198F;
+}
+
+.bcl-neonpurple {
+  color: #C724B1;
+}
+
+.bcl-violet {
+  color: #8F00FF;
+}
+
+.bcl-lime {
+  color: #04FF86;
 }
 
 .bcl-green {
-  filter: invert(76%) sepia(56%) saturate(789%) hue-rotate(86deg) brightness(100%) contrast(101%);
+  color: #228B22;
 }
 
 .bcl-green2 {
-  filter: invert(93%) sepia(82%) saturate(691%) hue-rotate(34deg) brightness(107%) contrast(100%);
+  color: #4DC71F;
+}
+
+.bcl-neongreen {
+  color: #0FFF50;
+}
+
+.bcl-chartreuse {
+  color: #7fff00;
+}
+
+.bcl-teal {
+  color: #008080;
+}
+
+.bcl-blue {
+  color: #4A69BD;
+}
+
+.bcl-blue2 {
+  color: #10A8D6;
+}
+
+.bcl-neonblue {
+  color: #1F51FF;
+}
+
+.bcl-aqua {
+  color: #00FFFF;
+}
+
+.bcl-pink {
+  color: #ff0080;
+}
+
+.bcl-lilac {
+  color: #AA98A9;
+}
+
+.bcl-mustard {
+  color: #D7C811;
+}
+
+.bcl-yellow {
+  color: #FFEA00;
+}
+
+.bcl-neonyellow {
+  color: #DFFF00;
+}
+
+.bcl-orange {
+  color: #F28C28;
+}
+
+.bcl-red {
+  color: #C41E3A;
+}
+
+.bcl-neonred {
+  color: #FF3131;
+}
+
+.bcl-cherry {
+  color: #D2042D;
+}
+
+.bcl-marsala {
+  color: #986868;
+}
+
+.bcl-wine {
+  color: #722F37;
+}
+
+.bcl-amora {
+  color: #972F65;
+}
+
+.bcl-gray {
+  color: #E6E6E6;
+}
+
+.bcl-white {
+  color: #F1F1F1;
+}
+
+.bcl-black {
+  color: #262626;
 }
