@@ -1,3 +1,9 @@
+# MOVED TO BERRY CREATIVE
+
+IcoBCL has moved to [Berry Creative](https://github.com/berrycreative/icobcl) and will receive updates and improvements there.
+
+If you like IcoBCL and look forward to new Icons and improvements, check it over the current version at [Berry Creative](https://github.com/berrycreative/icobcl).
+
 # IcoBCL
 
 The IcoBCL is a free-to-use set that includes icons in solid style, packaged as webfont for easy use.
